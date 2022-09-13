@@ -25,5 +25,4 @@ class FrontendController extends BaseController
     {
         return view('layouts.page.aboutus');
     }
-
 }

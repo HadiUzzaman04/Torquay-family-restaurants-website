@@ -7,7 +7,6 @@
         <div class="row">
           <div class="col-md-12">
             <h1>Contact Us</h1>
-            <span>feel free to send us a message now!</span>
           </div>
         </div>
       </div>
@@ -20,23 +19,23 @@
             <div class="contact-item">
               <i class="fa fa-phone"></i>
               <h4>Phone</h4>
-              <p>Vivamus ut tellus mi. Nulla nec cursus elit, id vulputate nec cursus augue.</p>
-              <a href="#">+1 333 4040 5566</a>
+              <p>For more information you can call us</p>
+              <a href="#">306-400-9220</a>
             </div>
           </div>
           <div class="col-md-4">
             <div class="contact-item">
               <i class="fa fa-envelope"></i>
               <h4>Email</h4>
-              <p>Vivamus ut tellus mi. Nulla nec cursus elit, id vulputate nec cursus augue.</p>
-              <a href="#">contact@company.com</a>
+              <p>For more information you can mail us</p>
+              <a href="#">info@torquayfamilyrestaurant.com</a>
             </div>
           </div>
           <div class="col-md-4">
             <div class="contact-item">
               <i class="fa fa-map-marker"></i>
               <h4>Location</h4>
-              <p>212 Barrington Court New York str <br> USA</p>
+              <p>Address- 122 Devon St,Torquay SK S0C2L0</p>
               <a href="#">View on Google Maps</a>
             </div>
           </div>
@@ -92,7 +91,7 @@
 	3. Click "Share" and choose "Embed map" tab
 	4. Copy only URL and paste it within the src="" field below
 -->
-      <iframe src="https://maps.google.com/maps?q=Av.+Lúcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="500px" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2610.1568986403404!2d-103.49518328490079!3d49.14064538874603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5321d38b45be7bf5%3A0xcfaa7954d8d96b10!2sTorquay%20Family%20Restaurant!5e0!3m2!1sen!2sbd!4v1663049397168!5m2!1sen!2sbd" width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 
 

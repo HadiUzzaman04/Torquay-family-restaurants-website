@@ -23,17 +23,25 @@
                                     <thead class="bg-primary">
                                         <tr>
                                             <th>SL</th>
-                                            <th>Name</th>
-                                            <th>Email</th>
+                                            <th>Date</th>
+                                            <th>Time</th>
+                                            <th>Number Of People</th>
+                                            <th>Booked By</th>
                                             <th>Message</th>
                                             <th>Action</th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                    <tr> 
-
-                                    </tr>
-                        
+                                        @foreach($data as $key=>$booking)
+                                        <tr>
+                                            <td>{{ $key + 1 }}</td>
+                                            <td>{{ $booking->date}}</td>
+                                            <td>{{ $booking->time}}</td>
+                                            <td>{{ $booking->people_ammount}}</td>
+                                            <td>{{ $booking->name}}</td>
+                                            <td>{{ $booking->message}}</td>
+                                        </tr>
+                                        @endforeach
                                     </tbody>
                                 </table>
                             </div>

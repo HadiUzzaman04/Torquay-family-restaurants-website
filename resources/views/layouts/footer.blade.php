@@ -2,8 +2,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 footer-item">
-                <h4>Restaurant Website</h4>
-                <p>Vivamus tellus mi. Nulla ne cursus elit,vulputate. Sed ne cursus augue hasellus lacinia sapien vitae.</p>
+                <h4>Torquay Family Restaurant</h4>
+                <p>Best place to have delicious food and to spend quality time with your family & friends</p>
                 <ul class="social-icons">
                     <li><a rel="nofollow" href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
                     <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -16,9 +16,9 @@
                         <h2>Contact Info</h2>
                     </div>
                     <address>
-                        <p>Address- 212 Barrington Court <br>New York, ABC 10001</p>
-                        <p>Phone- +1 333 4040 5566</p>
-                        <p><a href="mailto:contact@company.com">contact@company.com</a></p>
+                        <p>Address- 122 Devon St,Torquay SK S0C2L0</p>
+                        <p>Phone- 306-400-9220</p>
+                        <p><a href="mailto:contact@company.com">info@torquayfamilyrestaurant.com</a></p>
                     </address>
                 </div>
             </div>

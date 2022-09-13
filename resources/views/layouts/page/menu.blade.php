@@ -7,7 +7,6 @@
     <div class="row">
       <div class="col-md-12">
         <h1>Menu</h1>
-        <span>We change our menu regularly based on the availability of produce and the season.</span>
       </div>
     </div>
   </div>
@@ -22,7 +21,7 @@
           <div class="down-content">
             <h4>Main Menu</h4>
             <p></p>
-            <a href="#" target="blank" class="filled-button">Order</a>
+            <a href="https://drive.google.com/file/d/1l5XbMjnhiGHjJEcI0ACs_4m4xMbYpG5O/view?usp=preview" target="blank" class="filled-button">View Menu</a>
           </div>
         </div>
 
@@ -33,7 +32,7 @@
           <img src="{{asset('website/images/product-2-720x480.jpg')}}" alt="">
           <div class="down-content">
             <h4>Kids Menu</h4>
-            <a href="#" class="filled-button">Order</a>
+            <a href="https://drive.google.com/file/d/1bvqBVA72kFhgty-OUj-WyOZn9gIfMUuB/view?usp=preview" target="blank" class="filled-button">View Menu</a>
           </div>
         </div>
 
@@ -44,7 +43,7 @@
           <img src="{{asset('website/images/product-3-720x480.jpg')}}" alt="">
           <div class="down-content">
             <h4>Special Menu</h4>
-            <a href="#" class="filled-button">Order</a>
+            <a href="https://drive.google.com/file/d/1T7MNjHn78paj2nKO0VO57_yh_uxBRfot/view?usp=preview" target="blank" class="filled-button">View Menu</a>
           </div>
         </div>
 
@@ -53,10 +52,10 @@
 
       <div class="col-md-4">
         <div class="service-item">
-          <img src="{{asset('website/images/product-4-720x480.jpg')}}" alt="">
+          <img src="{{asset('website/images/blog-image-2-940x460.jpg')}}" alt="">
           <div class="down-content">
             <h4>Drinks Menu</h4>
-            <a href="#" class="filled-button">Order</a>
+            <a href="https://drive.google.com/file/d/1U3YJ9zh788HapqsSyOI7qPVj8DP8CBwf/view?usp=preview" target="blank" class="filled-button">View Menu</a>
           </div>
         </div>
         <br>

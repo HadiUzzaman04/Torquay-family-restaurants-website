@@ -3,8 +3,8 @@
         <div class="row">
             <div class="col-md-8 col-xs-12">
                 <ul class="left-info">
-                    <li><a href="#"><i class="fa fa-envelope"></i>contact@company.com</a></li>
-                    <li><a href="#"><i class="fa fa-phone"></i>123-456-7890</a></li>
+                    <li><a href="#"><i class="fa fa-envelope"></i>info@torquayfamilyrestaurant.com</a></li>
+                    <li><a href="#"><i class="fa fa-phone"></i>306-400-9220</a></li>
                 </ul>
             </div>
             <div class="col-md-4">
@@ -21,8 +21,10 @@
 <header class="">
     <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <h2>Restaurant<em> Website</em></h2>
+            <a class="navbar-brand" href="{{route('home')}}">
+            <div class="logo" style="height: 52px; width: 135px;">
+                <img src="{{asset('website/images/restaurant-logo.JPG')}}" style="height: 100%; width:100%; object-fit: cover;" alt="Venue Logo">
+                        </div>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>

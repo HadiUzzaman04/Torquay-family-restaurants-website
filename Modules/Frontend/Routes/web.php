@@ -27,4 +27,8 @@ Route::prefix('website')->group(function() {
     //contactus
     Route::get('/contactus','ContactusController@contact')->name('contactus');
     Route::post('/contactus/store','ContactusController@store')->name('contactus.store');
+
+    //booking
+    Route::post('/booking/store','BookingController@store')->name('booking.store');
+
 });
