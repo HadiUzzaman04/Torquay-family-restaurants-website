@@ -61,7 +61,7 @@ a.border-button:hover {
 
 .section-heading {
 	text-align: center;
-	margin-bottom: 80px;
+	margin-bottom: 20px;
 }
 
 .section-heading h2 {
@@ -555,7 +555,7 @@ ul.slick-dots {
 /* Services */
 
 .services {
-	margin-top: 140px;
+	margin-top: 20px;
 }
 
 .service-item img {
@@ -602,7 +602,7 @@ ul.slick-dots {
 /* Fun Facts */
 
 .fun-facts {
-	margin-top: 140px;
+	margin-top: 10px;
 	background-image: url(../images/about-fullscreen-image-1-1920x600.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -740,9 +740,9 @@ ul.slick-dots {
 }
 
 .testimonials {
-	margin-top: 140px;
+	margin-top: 10px;
 	background-color: #f7f7f7;
-	padding: 140px 0px;
+	padding: 0px 0px;
 }
 .testimonial-item .inner-content {
 	text-align: center;
@@ -932,7 +932,7 @@ ul.slick-dots {
 
 footer {
 	background-color: #232323;
-	padding: 80px 0px;
+	padding: 20px 0px;
 	color: #fff;
 }
 
@@ -941,7 +941,7 @@ footer h4 {
 	font-size: 20px;
 	font-weight: 600;
 	letter-spacing: 0.25px;
-	margin-bottom: 35px;
+	margin-bottom: 10px;
 }
 footer p {
 	color: #fff;
@@ -1336,11 +1336,13 @@ footer .contact-form button.filled-button:hover {
 	footer {
 		padding: 80px 0px 20px 0px;
 	}
-	footer .footer-item {
+	/* footer .footer-item {
 		border-bottom: 1px solid #343434;
 		margin-bottom: 30px;
 		padding-bottom: 30px;
-	}
+		display: grid;
+		justify-content: center;
+	} */
 	footer .last-item {
 		border-bottom: none;
 	}
@@ -1404,3 +1406,61 @@ footer .contact-form button.filled-button:hover {
 
 h5 a { color: #a4c639; } 
 h5 a:hover { color: inherit; } 
+
+.footer_main{
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.footer-item{
+	display: grid;
+	justify-content: center;
+}
+
+.links{
+	padding-left: 20px;
+}
+
+@media(min-width:320px) and (max-width: 480px){
+	.footer_main{
+		display: none;
+	}
+}
+
+
+@media(min-width:481px) and (max-width: 768px){
+
+   .footer_main_small{
+	display: none;
+   }
+}
+
+
+@media(min-width:769px) and (max-width: 1024px){
+	.footer_main_small{
+		display: none;
+	}
+}
+
+@media(min-width:1024px) and (max-width: 2560px){
+	.footer_main_small{
+		display: none;
+	}
+}
+
+@media(min-width:320px) and (max-width: 480px){
+	.footer_main_small{
+		display: block;
+		
+	}
+	.footer_connect{
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		margin-top: 20px;
+		
+	}
+	.footer-info{
+		margin-left: 50px;
+	}
+}
+
