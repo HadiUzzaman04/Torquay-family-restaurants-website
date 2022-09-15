@@ -938,7 +938,7 @@ footer {
 
 footer h4 {
 	color: #fff;
-	font-size: 20px;
+	font-size: 15px;
 	font-weight: 600;
 	letter-spacing: 0.25px;
 	margin-bottom: 10px;
@@ -1462,5 +1462,37 @@ h5 a:hover { color: inherit; }
 	.footer-info{
 		margin-left: 50px;
 	}
+
+	.footer-info p{
+		font-size: 12px;
+	}
+	
 }
 
+/* grill menu */
+
+
+.grill__menu{
+	 display: flex;
+	 justify-content: space-between;
+	 align-items: center;
+	 padding: 30px 10px;
+	 border: 2px solid #000;
+	 border-left: none;
+	 border-right: none;
+}
+
+.multi_menu{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 10px;
+	border: 2px solid #000;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+}
+
+.main__heading{
+	padding: 15px 0px;
+}

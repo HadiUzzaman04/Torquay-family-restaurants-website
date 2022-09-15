@@ -25,26 +25,31 @@
             <div class="row">
               <div class="col-sm-6">
                 <fieldset>
+                   <label for="date" style="display: flex;" >Select Date</label>
                   <input type="date" class="form-control" placeholder="select date" name="date" required="">
                 </fieldset>
               </div>
               <div class="col-sm-6">
                 <fieldset>
+                <label for="time" style="display: flex;" >Select Time</label>
                   <input type="time" class="form-control" placeholder="Give the time" name="time" required="">
                 </fieldset>
               </div>
               <div class="col-sm-6">
                 <fieldset>
+                <label for="people_ammount" style="display: flex;" >Number Of People</label>
                   <input type="text" class="form-control" placeholder="Number Of people" name="people_ammount" required="">
                 </fieldset>
               </div>
               <div class="col-sm-6">
                 <fieldset>
+                <label for="name" style="display: flex;" >Booked By</label>
                   <input type="text" class="form-control" placeholder="Booked By" name="name" required="">
                 </fieldset>
               </div>
               <div class="col-lg-12">
                 <fieldset>
+                <label for="message" style="display: flex;" >Message</label>
                   <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message" name="message" required=""></textarea>
                 </fieldset>
               </div>
@@ -60,12 +65,12 @@
 
       <div class="col-md-4">
         <label>Email</label>
-        <p><a href="#"><i class="fa fa-envelope"></i> info@torquayfamilyrestaurant.com</a></p>
+        <p><i class="fa fa-envelope"></i> info@torquayfamilyrestaurant.com</p>
 
         <br>
 
         <label>Phone</label>
-        <p><a href="#"><i class="fa fa-phone"></i> 306-400-9220</a></p>
+        <p><i class="fa fa-phone"></i> 306-400-9220</p>
 
         <br>
 

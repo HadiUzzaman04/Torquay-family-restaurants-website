@@ -20,7 +20,7 @@
               <i class="fa fa-phone"></i>
               <h4>Phone</h4>
               <p>For more information you can call us</p>
-              <a href="#">306-400-9220</a>
+              <p>306-400-9220</p>
             </div>
           </div>
           <div class="col-md-4">
@@ -28,7 +28,7 @@
               <i class="fa fa-envelope"></i>
               <h4>Email</h4>
               <p>For more information you can mail us</p>
-              <a href="#">info@torquayfamilyrestaurant.com</a>
+              <p>info@torquayfamilyrestaurant.com</p>
             </div>
           </div>
           <div class="col-md-4">

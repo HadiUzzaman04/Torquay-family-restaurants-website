@@ -13,7 +13,7 @@
                     <address>
                         <p>Address- 122 Devon St,Torquay SK S0C2L0</p>
                         <p>Phone- 306-400-9220</p>
-                        <p><a href="mailto:contact@company.com">info@torquayfamilyrestaurant.com</a></p>
+                        <p>info@torquayfamilyrestaurant.com</p>
                     </address>
                 </div>
             </div>
@@ -38,6 +38,7 @@
                 <h4>Torquay Family Restaurant</h4>
                 <p>Best place to have delicious food and to spend quality time with your family & friends</p>
             </div>
+            <br>
             <div class="footer_connect">
             <div class="footer-item">
                 <div class="footer-info">
