@@ -16,13 +16,11 @@ Route::get('/', function () {
     return redirect()->route('home');
 });
 
-
 Route::prefix('website')->group(function() {
     Route::get('/home', 'FrontendController@index')->name('home');
     Route::get('booking','FrontendController@booking')->name('booking');
     Route::get('/menu','FrontendController@menu')->name('menu');
     Route::get('/aboutus','FrontendController@aboutus')->name('aboutus');
-
 
     //contactus
     Route::get('/contactus','ContactusController@contact')->name('contactus');

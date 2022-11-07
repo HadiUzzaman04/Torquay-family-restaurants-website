@@ -36,6 +36,9 @@
                                             <td>{{ $contact->name}}</td>
                                             <td>{{ $contact->email}}</td>
                                             <td>{{ $contact->message}}</td>
+                                            <td>
+                                            <a href="{{route('contactus.delete',$contact->id)}}" class="btn btn-danger">Delete</a>
+                                            </td>
                                         </tr>
                                         @endforeach
                                     </tbody>

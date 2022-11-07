@@ -1,7 +1,5 @@
 @extends('layouts.master')
-
 @section('content')
-
 
 <div class="page-heading header-text">
   <div class="container">
@@ -12,7 +10,6 @@
     </div>
   </div>
 </div>
-
 <div class="callback-form contact-us" style="margin: 0">
   <div class="container">
     <div class="row">
@@ -62,24 +59,18 @@
           </form>
         </div>
       </div>
-
       <div class="col-md-4">
         <label>Email</label>
         <p><i class="fa fa-envelope"></i> info@torquayfamilyrestaurant.com</p>
-
         <br>
-
         <label>Phone</label>
         <p><i class="fa fa-phone"></i> 306-400-9220</p>
-
         <br>
-
         <label>Address</label>
         <p><i class="fa fa-map-marker"></i> 122 Devon St,Torquay SK S0C2L0</p>
       </div>
     </div>
   </div>
 </div>
-
 
 @endsection

@@ -22,9 +22,9 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container">
             <a class="navbar-brand" href="{{route('home')}}">
-            <div class="logo" style="height: 52px; width: 135px;">
-                <img src="{{asset('website/images/restaurant-logo.JPG')}}" style="height: 100%; width:100%; object-fit: cover;" alt="Venue Logo">
-                        </div>
+                <div class="logo" style="height: 52px; width: 135px;">
+                    <img src="{{asset('website/images/restaurant-logo.JPG')}}" style="height: 100%; width:100%; object-fit: cover;" alt="Venue Logo">
+                </div>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>

@@ -15,4 +15,10 @@ class BackendController extends BaseController
       $data = Booking:: all();
     return view('backend::layouts.booking', compact('data'));
    }
+   public function delete($id)
+   {
+       $data = Booking::find($id);
+       $data->delete();
+       return redirect()->back();
+   }
 }

@@ -1,5 +1,4 @@
 @extends('layouts.master')
-
 @section('content')
 
 <div class="page-heading header-text">
@@ -12,7 +11,6 @@
   </div>
 </div>
 <br>
-
 <section class="container">
   <h1>Torquay Family Restaurant MENU</h1>
   <h3 class="main__heading">Large Group Orders</h3>
@@ -712,10 +710,6 @@
       $<span>3.99</span>
     </div>
   </div>
-
-
-
-
 </section>
 
 @endsection

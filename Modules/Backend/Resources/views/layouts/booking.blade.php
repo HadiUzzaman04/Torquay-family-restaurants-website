@@ -40,6 +40,9 @@
                                             <td>{{ $booking->people_ammount}}</td>
                                             <td>{{ $booking->name}}</td>
                                             <td>{{ $booking->message}}</td>
+                                            <td>
+                                            <a href="{{route('booking.delete',$booking->id)}}" class="btn btn-danger">Delete</a>
+                                            </td>
                                         </tr>
                                         @endforeach
                                     </tbody>

@@ -1,10 +1,8 @@
 @extends('layouts.master')
-
 @section('content')
 
 <div class="main-banner header-text" id="top">
     <div class="Modern-Slider">
-        <!-- Item -->
         <div class="item item-1">
             <div class="img-fill">
                 <div class="text-content">
@@ -13,8 +11,6 @@
                 </div>
             </div>
         </div>
-        <!-- // Item -->
-        <!-- Item -->
         <div class="item item-2">
             <div class="img-fill">
                 <div class="text-content">
@@ -23,8 +19,6 @@
                 </div>
             </div>
         </div>
-        <!-- // Item -->
-        <!-- Item -->
         <div class="item item-3">
             <div class="img-fill">
                 <div class="text-content">
@@ -33,11 +27,9 @@
                 </div>
             </div>
         </div>
-        <!-- // Item -->
     </div>
 </div>
 <!-- Banner Ends Here -->
-
 <div class="services">
     <div class="container">
         <div class="row">
@@ -59,7 +51,6 @@
                         <a href="{{route('booking')}}" class="filled-button">Book Now</a>
                     </div>
                 </div>
-
                 <br>
             </div>
             <div class="col-md-4">
@@ -74,7 +65,6 @@
                         <a href="{{route('booking')}}" class="filled-button">Book Now</a>
                     </div>
                 </div>
-
                 <br>
             </div>
             <div class="col-md-4">
@@ -89,7 +79,6 @@
                         <a href="{{route('booking')}}" class="filled-button">Book Now</a>
                     </div>
                 </div>
-
                 <br>
             </div>
         </div>
@@ -118,8 +107,6 @@
     </div>
 </div>
 
-
-
 <div class="testimonials">
     <div class="container">
         <div class="row">
@@ -131,7 +118,6 @@
             </div>
             <div class="col-md-12">
                 <div class="owl-testimonials owl-carousel">
-
                     <div class="testimonial-item">
                         <div class="inner-content">
                             <h4>George Walker</h4>
@@ -165,6 +151,5 @@
         </div>
     </div>
 </div>
-
 
 @endsection

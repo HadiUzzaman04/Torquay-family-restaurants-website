@@ -1,5 +1,4 @@
 @extends('layouts.master')
-
 @section('content')
 
 <div class="page-heading header-text">
@@ -80,6 +79,5 @@
         </div>
     </div>
 </div>
-
 
 @endsection

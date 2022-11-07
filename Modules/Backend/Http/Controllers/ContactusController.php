@@ -15,4 +15,10 @@ class ContactusController extends BaseController
         $data = Contact:: all();
         return view('backend::layouts.contactus', compact('data'));
     }
+    public function delete($id)
+    {
+        $data = Contact::find($id);
+        $data->delete();
+        return redirect()->back();
+    }
 }
